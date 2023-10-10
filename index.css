@@ -1,7 +1,6 @@
 html {
-    background-color: #a6a6a6;
-   
-}
+    background-color: darkgreen;
+   }
 nav {
   display: flex;
   
@@ -42,9 +41,11 @@ body {
   margin: 0px;
 }
 p.store {
-  color: aqua;
-  /* margin-right: 60px; */
+  color: blanchedalmond;
+   margin-right: 60px; 
   font-size: 30px;
+  background-image: 50%;
+ 
   
 }
 .center {
@@ -80,13 +81,13 @@ footer {
 .delivery {
   text-decoration: none;
   color: black;
-  background-color: #cfff00;
+  background-color: azure;
   border-radius: 25px;
 }
 .contacto {
   text-decoration: none;
   color: black;
-  background-color: #cfff00;
+  background-color: azure;
   border-radius: 25px;
 }
 .slogan2 {
