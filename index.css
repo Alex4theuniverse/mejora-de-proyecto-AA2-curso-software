@@ -1,17 +1,28 @@
 html {
-    background-color: darkgreen;
+    background-color: aliceblue;
    }
 nav {
   display: flex;
   
 }
+a.img__minimarket {
+  border-image: 50%;
+  border-radius: 10%;
+
+}
 a.upper {
     color: black;
     text-decoration: none;
     font-size: 18;
+    border-image: center;
+
+}
+.img__name {
+  margin-left: 20%;
+
 }
 a.usuario{
-  background-color: aqua;
+   background-color: aliceblue;
   font-size: 20px;
   color: black;
   border-radius: 25px;
