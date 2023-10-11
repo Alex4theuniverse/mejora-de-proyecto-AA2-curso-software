@@ -121,6 +121,15 @@ h1 {
     font-size: 30px;
 }
 
+.carrito {
+    background-color: aqua;
+    margin-right: 300px;
+    font-size: 45px;
+    color: black;
+    padding: 0.25em 1em;
+    border-radius: 1rem;
+    text-decoration: none;
+}
 h3 {
     font-size: 30px;
     text-align: left;
@@ -151,6 +160,7 @@ h3 {
     flex: 0 1 calc(25% - 20px);
     margin: 10px;
     text-align: center;
+    font-size: 15px;
 }
 
 /* Estilos para las imágenes de productos en línea */
@@ -160,7 +170,66 @@ h3 {
     display: inline-block;
     margin: 10px;
 }
+footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #E0DD88;
+    color: black;
+    position: relative;
+    min-height: 30vh;
+    box-sizing: border-box;
+    font-size: 15px;
+}
 
+h4 {
+    font-size: 25px;
+}
+
+ul,
+li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.bi-youtube {
+    color: red;
+}
+
+.bi-tiktok {
+    color: #ff0050;
+}
+
+.bi-facebook {
+    color: blue;
+}
+
+.bi-instagram {
+    color: lightsalmon;
+}
+
+.bi-book-half {
+    color: azure;
+    font-size: 50px
+}
+
+.bi-shield-lock {
+    color: #1bd170;
+    font-size: 30px;
+}
+
+.bi-whatsapp {
+    color: green;
+}
+
+.bi-at {
+    color: aliceblue;
+}
+
+.bi-messenger {
+    color: #00B2FF;
+}
 
 @media (width >=768px) {
     .md\:d-block {
