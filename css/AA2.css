@@ -1,0 +1,309 @@
+html {
+    color-scheme: dark;
+}
+
+.body {
+    font-family: monospace;
+    margin: 0;
+    background-color: white;
+}
+
+.header {
+    position: fixed;
+    z-index: 25;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 4px 2px #6F8033;
+}
+
+.logo {
+    margin-right: 100px;
+}
+
+.nav {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+a.usuario {
+    all: unset;
+    padding: 0.25em 1em;
+    border-radius: 1rem;
+    background-color: #2BF6FF;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    color: black;
+
+    &:hover {
+        background-color: #19ade3;
+
+    }
+}
+
+.buscador {
+    padding-left: 0%;
+
+}
+
+.container {
+    max-width: 1150px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0 auto;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.25s;
+
+    &:hover {
+        color: #2BF6FF;
+    }
+}
+
+.img {
+    display: block;
+    object-fit: cover;
+}
+
+.img--background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+img.img2 {
+    border-radius: 40%;
+}
+
+p.descripcion {
+    font-size: 15px;
+}
+
+.button {
+    all: unset;
+    padding: 0.25em 1em;
+    border-radius: 1rem;
+    background-color: #2BF6FF;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    color: black;
+
+    &:hover {
+        background-color: #CFFF00;
+    }
+}
+
+.flexbox {
+    display: flex;
+    /* gap: 100; */
+}
+
+.flexbox--centered-sides {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.g-layout {
+    display: grid;
+}
+
+.g-layout--center {
+    place-items: center;
+    place-content: center;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.g-4xs {
+    gap: 20px;
+}
+
+h1 {
+    color: aqua;
+    font-size: 40px;
+}
+
+.carrito {
+    background-color: #CFFF00;
+    margin-right: 300px;
+    font-size: 35px;
+    color: black;
+    padding: 0.25em 1em;
+    border-radius: 3rem;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.topday {
+    display: none;
+    align-items: center;
+}
+
+
+
+.titulo-seccion {
+    font-size: 24px;
+    margin-top: 20px;
+    border-radius: 1rem;
+}
+
+/* resaltados de seccion de productos 1 pagina  */
+.top-dia {
+    background-color: #09c27b;
+    color: black;
+    margin-right: 1079px;
+}
+
+.abarrotes {
+    background-color: #09c27b;
+    color: black;
+    margin-right: 1120px;
+}
+
+.Bebidas {
+    background-color: #09c27b;
+    color: black;
+    margin-right: 1140px;
+}
+
+.cuidado-personal {
+    background-color: #09c27b;
+    color: black;
+    margin-right: 879px;
+}
+
+.frescos {
+    background-color: #09c27b;
+    color: black;
+    margin-right: 1150px;
+}
+
+/* Estilos para las secciones de productos */
+.seccion-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para los contenedores de productos */
+.producto {
+    flex: 0 1 calc(25% - 20px);
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(7, 7, 7);
+}
+
+/* Estilos para las imágenes de productos en línea */
+.imagen-producto {
+    max-width: 200px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 40%;
+}
+
+footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #E0DD88;
+    color: black;
+    position: relative;
+    min-height: 30vh;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+ul,
+li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.bi-youtube {
+    color: red;
+}
+
+.bi-tiktok {
+    color: #ff0050;
+}
+
+.bi-facebook {
+    color: blue;
+}
+
+.bi-instagram {
+    color: lightsalmon;
+}
+
+.bi-book-half {
+    color: azure;
+    font-size: 50px
+}
+
+.bi-shield-lock {
+    color: #1bd170;
+    font-size: 30px;
+}
+
+.bi-whatsapp {
+    color: green;
+}
+
+.bi-at {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.bi-messenger {
+    color: #00B2FF;
+}
+
+@media (width >=768px) {
+    .md\:d-block {
+        display: block;
+    }
+
+    .md\:d-flex {
+        display: flex;
+    }
+
+    .md\:g-layout--1fr-1fr {
+        grid-template-columns: 1fr 1fr;
+    }
+}

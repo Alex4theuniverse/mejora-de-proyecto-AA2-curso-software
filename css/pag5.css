@@ -16,6 +16,7 @@ html {
     background-color: rgba(0, 0, 0, 0.75);
     box-shadow: 0 0 4px 2px #6F8033;
 }
+
 .logo {
     margin-right: 100px;
 }
@@ -29,6 +30,7 @@ html {
     position: relative;
     min-height: 100vh;
     box-sizing: border-box;
+    background-color: #030605;
 }
 
 a.usuario {
@@ -36,24 +38,25 @@ a.usuario {
     padding: 0.25em 1em;
     border-radius: 1rem;
     background-color: #2BF6FF;
-        cursor: pointer;
-        transition: background-color 0.25s;
-        color: black;
-    
-        &:hover {
-            background-color: #19ade3;
-    
-        }
+    cursor: pointer;
+    transition: background-color 0.25s;
+    color: black;
+
+    &:hover {
+        background-color: #19ade3;
+
+    }
 }
 
 .buscador {
     padding-left: 0%;
 
 }
+
 .container {
     max-width: 1150px;
-        padding-right: 0px;
-        padding-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
     margin: 0 auto;
 }
 
@@ -87,12 +90,14 @@ a.usuario {
 }
 
 img.img2 {
-    border-radius: 40%;
+    border-radius: 20%;
 }
 
 p.descripcion {
     font-size: 15px;
+    color: #e8e8c0;
 }
+
 .button {
     all: unset;
     padding: 0.25em 1em;
@@ -139,19 +144,21 @@ p.descripcion {
 }
 
 h1 {
-    color: aqua;
-        font-size: 40px;
+    color: rgb(125, 144, 144);
+    font-size: 30px;
 }
 
 .carrito {
     background-color: #CFFF00;
     margin-right: 300px;
-    font-size: 45px;
+    font-size: 25px;
     color: black;
     padding: 0.25em 1em;
-    border-radius: 1rem;
+    border-radius: 3rem;
     text-decoration: none;
+    text-align: center;
 }
+
 h3 {
     font-size: 30px;
     text-align: left;
@@ -169,37 +176,37 @@ h3 {
     font-size: 24px;
     margin-top: 20px;
     border-radius: 1rem;
-    }
-    
-    /* resaltados de seccion de productos 1 pagina  */
-    .top-dia {
-        background-color: #09c27b;
-        color: black;
-        margin-right: 1059px;
-    }
-    
-    .abarrotes {
-        background-color: #09c27b;
-        color: black;
-        margin-right: 1100px;
-    }
-    
-    .Bebidas {
-        background-color: #09c27b;
-        color: black;
-        margin-right: 1130px;
-    }
-    
-    .cuidado-personal {
-        background-color: #09c27b;
-        color: black;
-        margin-right: 859px;
-    }
-    
-    .frescos {
-        background-color: #09c27b;
-        color: black;
-        margin-right: 1130px;
+}
+
+/* resaltados de seccion de productos 1 pagina  */
+.top-dia {
+    background-color: #09c27b;
+    color: black;
+    margin-right: 1059px;
+}
+
+.abarrotes {
+    background-color: #09c27b;
+    color: black;
+    margin-right: 1100px;
+}
+
+.Bebidas {
+    background-color: #09c27b;
+    color: black;
+    margin-right: 1130px;
+}
+
+.cuidado-personal {
+    background-color: #09c27b;
+    color: black;
+    margin-right: 859px;
+}
+
+.frescos {
+    background-color: #09c27b;
+    color: black;
+    margin-right: 1130px;
 }
 
 /* Estilos para las secciones de productos */
@@ -216,7 +223,7 @@ h3 {
     margin: 10px;
     text-align: center;
     font-size: 18px;
-        color: rgb(7, 7, 7);
+    color: rgb(7, 7, 7);
 }
 
 /* Estilos para las imágenes de productos en línea */
@@ -227,12 +234,13 @@ h3 {
     margin: 10px;
     border-radius: 40%;
 }
+
 footer {
     align-items: center;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color: #E0DD88;
+    background-color: #2BF6FF;
     color: black;
     position: relative;
     min-height: 30vh;
