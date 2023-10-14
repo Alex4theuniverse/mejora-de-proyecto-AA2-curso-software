@@ -93,7 +93,11 @@ img.img2 {
 }
 
 p.descripcion {
-    font-size: 15px;
+    font-size: 21px;
+        text-shadow: 1px 0px 0px black,
+            0px 1px 0px black,
+            -1px 0px 0px black,
+            0px -1px 0px black;
 }
 
 .button {
@@ -144,6 +148,18 @@ p.descripcion {
 h1 {
     color: aqua;
     font-size: 40px;
+    text-shadow: 1px 0px 0px black,
+            0px 1px 0px black,
+            -1px 0px 0px black,
+            0px -1px 0px black;
+    }
+    
+    h2 {
+        font-size: 25px;
+        text-shadow: 1px 0px 0px black,
+            0px 1px 0px black,
+            -1px 0px 0px black,
+            0px -1px 0px black;
 }
 
 .carrito {
