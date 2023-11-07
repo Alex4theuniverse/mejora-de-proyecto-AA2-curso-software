@@ -242,7 +242,7 @@ h3 {
 /* Estilos para las imágenes de productos en línea */
 .imagen-producto {
     max-width: 200px;
-    height: auto;
+    height: 200px;
     display: inline-block;
     margin: 10px;
     border-radius: 40%;
