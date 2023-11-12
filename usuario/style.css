@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(35, 203, 203), #3498db , #2BF6FF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centrado {
+    width: 900px; 
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.perfil {
+    text-align: center;
+    padding: 20px;
+}
+
+.perfil img {
+    width: 110px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.puntos {
+    font-weight: bold;
+    color: #3498db;
+}
+
+.saldo, .transacciones {
+    margin-top: 20px;
+}
+
+.saldo h3, .transacciones h3 {
+    margin-bottom: 10px;
+}
+
+.saldo ul, .transacciones ul {
+    list-style: none;
+    padding: 0;
+}
+
+.saldo li, .transacciones li {
+    margin-bottom: 5px;
+}
+
+.separador {
+    width: 2px;
+    height: 80%;
+    background-color: #ccc;
+}
+
+.canje {
+    text-align: center;
+    padding: 20px;
+}
+
+.canje h3 {
+    margin-bottom: 10px;
+}
+
+.canje ul {
+    list-style: none;
+    padding: 0;
+}
+
+.canje li {
+    margin-bottom: 5px;
+}

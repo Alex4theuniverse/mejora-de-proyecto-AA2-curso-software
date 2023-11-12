@@ -1,4 +1,5 @@
 import { serviciosDeLaList, topsdeldia, abarrotes, bebidas, cuidado, frescos, redes, contact, reclamo } from "./js/util/data.js";
+alert("Bienvenido")
 
 const serviciosLista = document.getElementById("serviciosLista");
 const tops = document.getElementById("topsdeldia");

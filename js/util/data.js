@@ -13,7 +13,7 @@ export const serviciosDeLaList = [
     },
     {
         id: '3',
-        href: 'pag4.htm',
+        href: 'pag4.html',
         title: 'Prodcutos RapiFood',
         content: 'Rapi Compra🛵',
     },
@@ -25,7 +25,7 @@ export const serviciosDeLaList = [
     },
     {
         id: '5',
-        href: '#',
+        href: '/login/index.html',
         title: 'Puntos de tus compras',
         content: '👩Usuario Puntos🧑',
     },
@@ -33,21 +33,21 @@ export const serviciosDeLaList = [
 
 export const topsdeldia = [
     {   
-        id:'1',
+        id:'PAPEL-papel',
         image: 'https://s7d2.scene7.com/is/image/TottusPE/40541954_1?wid=800&hei=800&qlt=70' ,
         alt: 'Papel Higiénico Suave Cuidado Completo - Pack 2 UN',
         title: 'Papel Higiénico Suave Cuidado Completo - Pack 2 UN',
         price: 'S/2.41',
     },
     {
-        id:'2',
+        id:'PAN-pan',
         image: '/imagensproductos/azucar.jpg',
         alt: 'Pan de Molde BIMBO Integral Bolsa 750g',
         title: 'Pan de Molde BIMBO Integral Bolsa 750g',
         price: 'S/10.50',
     },
     {
-        id:'3',
+        id:'LECHE-leche',
         image: 'imagensproductos/leche.jpg',
         alt: 'Leche Reconstituida Gloria Lata 395g',
         title: 'Leche Reconstituida Gloria Lata 395g',
