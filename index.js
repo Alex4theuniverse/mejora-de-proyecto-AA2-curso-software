@@ -12,8 +12,8 @@ const contacto = document.getElementById('contact');
 const Reclamo = document.getElementById('reclamo');
 
 serviciosDeLaList.forEach((element) => {
-  const { id, href, title, content } = element;
-  serviciosLista.innerHTML += `
+    const { id, href, title, content } = element;
+    serviciosLista.innerHTML += `
     <li key="${id}">
         <a 
             href=${href}

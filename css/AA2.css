@@ -13,8 +13,8 @@ html {
     z-index: 25;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
-    box-shadow: 0 0 4px 2px #6F8033;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 4px 2px rgb(29, 162, 211);
 }
 
 .logo {
