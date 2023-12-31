@@ -73,7 +73,7 @@ MIERCOLES.forEach((element) => {
         alt="${title}" 
         class="imagen-producto">
         <br />
-        <p>${title}</p>
+        <p class="texto-producto">${title}</p>
         <del>
             <p>${priceNulo}</p>
         </del>
@@ -91,7 +91,7 @@ JUEVES.forEach((element) => {
         alt="${title}" 
         class="imagen-producto">
         <br />
-        <p>${title}</p>
+        <p class="texto-producto">${title}</p>
         <del>
             <p>${priceNulo}</p>
         </del>
@@ -109,7 +109,7 @@ VIERNES.forEach((element) => {
         alt="${title}" 
         class="imagen-producto">
         <br />
-        <p>${title}</p>
+        <p class="texto-producto">${title}</p>
         <del>
             <p>${priceNulo}</p>
         </del>
@@ -145,7 +145,7 @@ OFERTAS.forEach((element) => {
         alt="${title}" 
         class="imagen-producto">
         <br />
-        <p>${title}</p>
+        <p class="texto-producto">${title}</p>
         <del>
             <p>${priceNulo}</p>
         </del>

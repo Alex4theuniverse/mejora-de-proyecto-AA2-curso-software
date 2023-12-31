@@ -34,7 +34,7 @@ ABARROTES.forEach((element) => {
         alt="${title}"
         class="imagen-producto">
         <br />
-        <p>${title}</p>
+        <p class="texto-producto">${title}</p>
         <p>${price}</p>
     </li>
     <section class="seccion-productos">
@@ -50,7 +50,7 @@ BEBIDAS.forEach((element) => {
         alt="${title}"
         class="imagen-producto">
         <br />
-        <p>${title}</p>
+        <p class="texto-producto">${title}</p>
         <p>${price}</p>
     </li>
     <section class="seccion-productos">
@@ -66,7 +66,7 @@ CUIDADOPYL.forEach((element) => {
         alt="${title}"
         class="imagen-producto">
         <br />
-        <p>${title}</p>
+        <p class="texto-producto">${title}</p>
         <p>${price}</p>
     </li>
     <section class="seccion-productos">    
@@ -82,7 +82,7 @@ FRESCOS.forEach((element) => {
         alt="${title}"
         class="imagen-producto">
         <br />
-        <p>${title}</p>
+        <p class="texto-producto">${title}</p>
         <p>${price}</p>
     </li>
     <section class="seccion-productos">        

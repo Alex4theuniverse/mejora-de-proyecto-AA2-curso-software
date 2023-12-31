@@ -36,7 +36,7 @@ topsdeldia.forEach((element) => {
             alt="${title}"
             class="imagen-producto" width="256" height="256"/>
             <br />
-            <p>${title}</p>
+            <p class="texto-producto"> ${title}</p>
             <p>${price}</p>
             </li>
     `;
@@ -51,7 +51,7 @@ abarrotes.forEach((element) => {
             alt="${title}"
             class="imagen-producto" >
             <br />
-            <p>${title}</p>
+            <p class="texto-producto">${title}</p>
             <p>${price}</p>
         </li>
     `;
@@ -66,7 +66,7 @@ bebidas.forEach((element) => {
         alt="${title}"
         class="imagen-producto" >
         <br />
-        <p>${title}</p>
+        <p class="texto-producto"> ${title}</p>
         <p>${price}</p>
     </li>   
     `;
@@ -81,7 +81,7 @@ cuidado.forEach((element) => {
             alt="${title}" 
             class="imagen-producto">
             <br />
-            <p>${title}</p>
+            <p class="texto-producto"> ${title}</p>
             <p>${price}</p>
     </li> 
     `;
@@ -96,7 +96,7 @@ frescos.forEach((element) => {
         alt="${title}" 
         class="imagen-producto">
         <br />
-        <p>${title}</p>
+        <p class="texto-producto"> ${title}</p>
         <p>${price}</p>
     </li> 
     `;

@@ -1,25 +1,25 @@
 export const serviciosDeLaList = [
     {
         id: '1',
-        href: 'pag2.html',
+        href: '/Pages/pag2.html',
         title: 'Zona de productos',
         content: 'Productos🛒',
     },
     {
         id: '2',
-        href: 'pag3.html',
+        href: '/Pages/pag3.html',
         title: 'Nuestras ofertas',
         content: 'Ofertas🤑',
     },
     {
         id: '3',
-        href: 'pag4.html',
+        href: '/Pages/pag4.html',
         title: 'Prodcutos RapiFood',
         content: 'Rapi Compra🛵',
     },
     {
         id: '4',
-        href: 'pag5.html',
+        href: '/Pages/pag5.html',
         title: 'Nuestra empresa',
         content: 'Nosotros👨‍💼',
     },
@@ -158,28 +158,28 @@ export const cuidado = [
 export const frescos = [
     {
         id: 'Lechuga',
-        image: 'imagensproductos/lechuga.jpg',
+        image: '/imagensproductos/lechuga.jpg',
         alt: 'Lechuga Americana x unid',
         title: 'Lechuga Americana x unid',
         price: 'S/1.90',
     },
     {
         id: 'Queso',
-        image: 'imagensproductos/queso.jpg',
+        image: '/imagensproductos/queso.jpg',
         alt: 'Queso Preparado Cheddar Laive 8 tajadas',
         title: 'Queso Preparado Cheddar Laive 8 tajadas',
         price: 'S/8.90',
     },
     {
         id: 'Galletas',
-        image: 'imagensproductos/galletas.jpe',
+        image: '/imagensproductos/galletas.jpe',
         alt: 'Galletas Morochas Fiesta 224g',
         title: 'Galletas Morochas Fiesta 224g',
         price: 'S/10.00',
     },
     {
         id: 'HELADO',
-        image: 'imagensproductos/helado.jpe',
+        image: '/imagensproductos/helado.jpe',
         alt: 'HELADO PEZIDURI CHOCOCHIPS 2.2L',
         title: 'HELADO PEZIDURI CHOCOCHIPS 2.2L',
         price: 'S/20.90',
@@ -273,7 +273,7 @@ export const ABARROTES = [
     },
     {
         id:'Sopa',
-        image: 'imagensproductos/sopaajinomen.jpe' ,
+        image: '/imagensproductos/sopaajinomen.jpe' ,
         alt: "Sopa Instantánea Ajinomen Sabor Carne 80g",
         title: "Sopa Instantánea Ajinomen Sabor Carne 80g",
         price: 'S/1.60',
@@ -281,21 +281,21 @@ export const ABARROTES = [
     
     {
         id:'Arroz',
-        image: 'imagensproductos/arroz.jpg' ,
+        image: '/imagensproductos/arroz.jpg' ,
         alt: "Arroz Extra Costeño 5kg",
         title: "Arroz Extra Costeño 5kg",
         price: 'S/23.99',
     },
     {
         id:'Aceite',
-        image: 'imagensproductos/aceite.jpg' ,
+        image: '/imagensproductos/aceite.jpg' ,
         alt: "Aceite Vegetal Primor Premium 900ml",
         title: "Aceite Vegetal Primor Premium 900ml",
         price: 'S/23.99',
     },
     {
         id:'Fideo',
-        image: 'imagensproductos/fideos.jpe' ,
+        image: '/imagensproductos/fideos.jpe' ,
         alt: "Fideo Fettuccini Don Vittorio 950g",
         title: "Fideo Fettuccini Don Vittorio 950g",
         price: 'S/5.80', 
@@ -313,28 +313,28 @@ export const ABARROTES = [
 export const BEBIDAS = [
     {
         id:'Gaseosa',
-        image: 'imagensproductos/cocacola.jpe' ,
+        image: '/imagensproductos/cocacola.jpe' ,
         alt: "Gaseosa Coca Cola Botella 3L",
         title: "Gaseosa Coca Cola Botella 3L",
         price: 'S/11.40', 
     },
     {
         id:'Agua',
-        image: 'imagensproductos/agua san mateo.jpe' ,
+        image: '/imagensproductos/agua san mateo.jpe' ,
         alt: "Agua Sin Gas Mineral San Mateo Botella 2.5 L",
         title: "Agua Sin Gas Mineral San Mateo Botella 2.5 L",
         price: 'S/3.00', 
     },
     {
         id:'Sporade',
-        image: 'imagensproductos/soprade.jpe' ,
+        image: '/imagensproductos/soprade.jpe' ,
         alt: "Bebida Rehidratante Sporade Blueberry Botella 500 ml",
         title: "Bebida Rehidratante Sporade Blueberry Botella 500 ml",
         price: 'S/2.40', 
     },
     {
         id:'Frugo-Frugos',
-        image: 'imagensproductos/frugo.jpg' ,
+        image: '/imagensproductos/frugo.jpg' ,
         alt: "Bebida de Durazno Frugos del Valle Botella 1L",
         title: "Bebida de Durazno Frugos del Valle Botella 1L",
         price: 'S/4.50', 
@@ -372,28 +372,28 @@ export const BEBIDAS = [
 export const CUIDADOPYL = [
     {
         id:'jabón',
-        image: 'imagensproductos/javondove.jpe' ,
+        image: '/imagensproductos/javondove.jpe' ,
         alt: "jabón dove 1u",
         title: "jabón dove 1u",
         price: 'S/2.90',
     },
     {
         id:'Shampoo',
-        image: 'imagensproductos/shapusavital.png"' ,
+        image: '/imagensproductos/shapusavital.png"' ,
         alt: "Shampoo Reparación Perfecta Savital 530 ml",
         title: "Shampoo Reparación Perfecta Savital 530 ml",
         price: 'S/12.90',
     },
     {
         id:'Pasta Dental',
-        image: 'imagensproductos/pastadental.jpe' ,
+        image: '/imagensproductos/pastadental.jpe' ,
         alt: "Pasta Dental COLGATE Triple Acción Tubo 150ml",
         title: "Pasta Dental COLGATE Triple Acción Tubo 150mlu",
         price: 'S/5.00',
     },
     {
         id:'Bioré Bandas',
-        image: 'imagensproductos/Bioré Bandas.png' ,
+        image: '/imagensproductos/Bioré Bandas.png' ,
         alt: "Bioré Bandas Nasales Limpieza Profunda 8 und",
         title: "Bioré Bandas Nasales Limpieza Profunda 8 und",
         price: 'S/31.90',
@@ -432,14 +432,14 @@ export const CUIDADOPYL = [
 export const FRESCOS =[
     {
         id:'Lavavajillas',
-        image: 'imagensproductos/lechuga.jpg' ,
+        image: '/imagensproductos/lechuga.jpg' ,
         alt: "Lavavajillas Líquido AYUDÍN Limón y Sábila",
         title: "Lavavajillas Líquido AYUDÍN Limón y Sábila",
         price: 'S/19.90',
     },
     {
         id:'Queso',
-        image: 'imagensproductos/queso.jpg' ,
+        image: '/imagensproductos/queso.jpg' ,
         alt: "Queso Preparado Cheddar Laive 8 tajadas",
         title: "Queso Preparado Cheddar Laive 8 tajadas",
         price: 'S/8.90',
@@ -453,7 +453,7 @@ export const FRESCOS =[
     },
     {
         id:'HELADO',
-        image: 'imagensproductos/helado.jpe' ,
+        image: '/imagensproductos/helado.jpe' ,
         alt: "HELADO PEZIDURI CHOCOCHIPS 2.2L",
         title: "HELADO PEZIDURI CHOCOCHIPS 2.2L",
         price: 'S/20.90',
@@ -705,7 +705,7 @@ export const OFERTAS2X1 =[
 export const OFERTAS =[
     {
         id: "",
-        image: "imagensproductos/lechuga.jpg",
+        image: "/imagensproductos/lechuga.jpg",
         alt: "Lechuga Americana x unid",
         title: "Lechuga Americana x unid",
         priceNulo: "S/1.90",
@@ -713,7 +713,7 @@ export const OFERTAS =[
     },
     {
         id: "",
-        image: "imagensproductos/queso.jpg",
+        image: "/imagensproductos/queso.jpg",
         alt: "Queso Preparado Cheddar Laive 8 tajadas",
         title: "Queso Preparado Cheddar Laive 8 tajadas",
         priceNulo: "S/8.90",
@@ -729,7 +729,7 @@ export const OFERTAS =[
     },
     {
         id: "",
-        image: "imagensproductos/helado.jpe",
+        image: "/imagensproductos/helado.jpe",
         alt: "HELADO PEZIDURI CHOCOCHIPS 2.2L",
         title: "HELADO PEZIDURI CHOCOCHIPS 2.2",
         priceNulo: "S/20.90",

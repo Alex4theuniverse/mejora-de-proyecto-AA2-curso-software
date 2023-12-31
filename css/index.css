@@ -233,19 +233,32 @@ h3 {
 /* Estilos para los contenedores de productos */
 .producto {
     flex: 0 1 calc(25% - 20px);
-    margin: 10px;
+    margin: 5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 12px;
     color: rgb(7, 7, 7);
+    border: 2px solid #e1d2d2;
+    background: aliceblue;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 /* Estilos para las imágenes de productos en línea */
 .imagen-producto {
-    max-width: 200px;
-    height: 200px;
+    max-width: 250px;
+    height: 250px;
     display: inline-block;
     margin: 10px;
     border-radius: 40%;
+}
+
+
+.texto-producto {
+    max-width: 100%; /* Ajustar al ancho del contenedor */
+    max-height: 100%; /* Ajustar al alto del contenedor */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Agregar puntos suspensivos si el texto se recorta */
+    white-space: nowrap; /* Evitar el salto de línea */
 }
 
 footer {
@@ -260,6 +273,7 @@ footer {
     box-sizing: border-box;
     font-size: 15px;
 }
+
 
 h4 {
     font-size: 25px;
