@@ -1,31 +1,31 @@
 export const serviciosDeLaList = [
     {
         id: '1',
-        href: '/Pages/pag2.html',
+        href: './Pages/pag2.html',
         title: 'Zona de productos',
         content: 'Productos🛒',
     },
     {
         id: '2',
-        href: '/Pages/pag3.html',
+        href: './Pages/pag3.html',
         title: 'Nuestras ofertas',
         content: 'Ofertas🤑',
     },
     {
         id: '3',
-        href: '/Pages/pag4.html',
+        href: './Pages/pag4.html',
         title: 'Prodcutos RapiFood',
         content: 'Rapi Compra🛵',
     },
     {
         id: '4',
-        href: '/Pages/pag5.html',
+        href: './Pages/pag5.html',
         title: 'Nuestra empresa',
         content: 'Nosotros👨‍💼',
     },
     {
         id: '5',
-        href: '/login/index.html',
+        href: './login/index.html',
         title: 'Puntos de tus compras',
         content: '👩Usuario Puntos🧑',
     },
@@ -42,7 +42,7 @@ export const topsdeldia = [
     },
     {
         id:'PAN-pan',
-        image: '/imagensproductos/azucar.jpg',
+        image: './imagensproductos/azucar.jpg',
         alt: 'Pan de Molde BIMBO Integral Bolsa 750g',
         title: 'Pan de Molde BIMBO Integral Bolsa 750g',
         price: 'S/10.50',
@@ -158,28 +158,28 @@ export const cuidado = [
 export const frescos = [
     {
         id: 'Lechuga',
-        image: '/imagensproductos/lechuga.jpg',
+        image: './imagensproductos/lechuga.jpg',
         alt: 'Lechuga Americana x unid',
         title: 'Lechuga Americana x unid',
         price: 'S/1.90',
     },
     {
         id: 'Queso',
-        image: '/imagensproductos/queso.jpg',
+        image: './imagensproductos/queso.jpg',
         alt: 'Queso Preparado Cheddar Laive 8 tajadas',
         title: 'Queso Preparado Cheddar Laive 8 tajadas',
         price: 'S/8.90',
     },
     {
         id: 'Galletas',
-        image: '/imagensproductos/galletas.jpe',
+        image: './imagensproductos/galletas.jpe',
         alt: 'Galletas Morochas Fiesta 224g',
         title: 'Galletas Morochas Fiesta 224g',
         price: 'S/10.00',
     },
     {
         id: 'HELADO',
-        image: '/imagensproductos/helado.jpe',
+        image: './imagensproductos/helado.jpe',
         alt: 'HELADO PEZIDURI CHOCOCHIPS 2.2L',
         title: 'HELADO PEZIDURI CHOCOCHIPS 2.2L',
         price: 'S/20.90',
