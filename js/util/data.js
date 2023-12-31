@@ -1,7 +1,7 @@
 export const serviciosDeLaList = [
     {
         id: '1',
-        href: '/Pages/pag2.html',
+        href: "./Pages/pag2.html",
         title: 'Zona de productos',
         content: 'Productos🛒',
     },
