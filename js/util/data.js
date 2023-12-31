@@ -1,7 +1,7 @@
 export const serviciosDeLaList = [
     {
         id: '1',
-        href: '../Pages/pag2.html',
+        href: './Pages/pag2.html',
         title: 'Zona de productos',
         content: 'Productos🛒',
     },
@@ -13,19 +13,19 @@ export const serviciosDeLaList = [
     },
     {
         id: '3',
-        href: '../Pages/pag4.html',
+        href: './Pages/pag4.html',
         title: 'Prodcutos RapiFood',
         content: 'Rapi Compra🛵',
     },
     {
         id: '4',
-        href: '../Pages/pag5.html',
+        href: './Pages/pag5.html',
         title: 'Nuestra empresa',
         content: 'Nosotros👨‍💼',
     },
     {
         id: '5',
-        href: '../login/index.html',
+        href: './login/index.html',
         title: 'Puntos de tus compras',
         content: '👩Usuario Puntos🧑',
     },
