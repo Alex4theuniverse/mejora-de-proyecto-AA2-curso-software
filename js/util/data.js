@@ -26,8 +26,14 @@ export const serviciosDeLaList = [
     {
         id: '5',
         href: '/login/index.html',
-        title: 'Puntos de tus compras',
+        title: 'Puntos de usuario',
         content: '👩Usuario Puntos🧑',
+    },
+    {
+        id: '6',
+        href: '#',
+        title: 'Carrito de tus compras',
+        content: '🛒',
     },
     
 ];

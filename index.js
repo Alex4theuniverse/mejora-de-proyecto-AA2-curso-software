@@ -1,5 +1,5 @@
 import { serviciosDeLaList, topsdeldia, abarrotes, bebidas, cuidado, frescos, redes, contact, reclamo } from "./js/util/data.js";
-alert("Bienvenido")
+alert("Bienvenido Usuario pulse aceptar para continuar")
 
 const serviciosLista = document.getElementById("serviciosLista");
 const tops = document.getElementById("topsdeldia");
@@ -16,7 +16,7 @@ serviciosDeLaList.forEach((element) => {
     serviciosLista.innerHTML += `
     <li key="${id}">
         <a 
-            href=${href}
+            href="${href}"
             rel="noopener noreferrer" 
             class="link"
             title="${title}"
